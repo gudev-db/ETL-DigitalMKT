@@ -5,16 +5,8 @@ const apiKey =
 // Array de clientes com suas palavras-chave
 
 const clients = [
-{ name: "Positivo", queries: "positivo, samsung, lenovo, iplace corp"
-},
-{ name: "Cocamar", queries: "cocamar, casa do soldador, agro online,
-cooperativa citrus online, cooper mota" },
-{ name: "Hospital Sírio Libanês", queries: "hospital sirio libanes,
-hospital albert einstein, hospital oswaldo cruz, hospital moinho" },
-{ name: "Citrosuco", queries: "citrosuco, cutrale, ldc" },
-{ name: "Mart Minas", queries: "mart minas atacadao, supermercados bh,
-apoio entrega, mineirao atacarejo" }
-];
+{ name: "client", queries: "queries"
+}];
 const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
 
 // Loop para cada cliente
